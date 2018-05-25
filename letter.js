@@ -1,3 +1,5 @@
+var chalk = require("chalk");
+
 function Letter(underlying) { 
     this.underlying = underlying;
     this.guessed = false;
@@ -14,7 +16,7 @@ function Letter(underlying) {
     };
     this.checkGuessed = function (guess) {
 
-        if(guess == this.underlying) {
+        if(guess == this.underlying || this.guessed == true) {
 
             this.guessed = true;
 
@@ -27,4 +29,8 @@ function Letter(underlying) {
     }
 
 
+};
+
+module.exports = {
+    Letter: Letter
 };
