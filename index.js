@@ -11,7 +11,7 @@ var randomItem = words[Math.floor(Math.random()*words.length)];
 
 var newWord = new word.Word();
 
-newWord.createLetters("database");
+newWord.createLetters(randomItem);
 
 newWord.showWord();
 guessLetter();
