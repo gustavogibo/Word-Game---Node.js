@@ -1,4 +1,4 @@
-#  :skull:
+# Word Game - Node.js version 
 
 ![demo](./gifs/1.gif)
 
@@ -21,7 +21,7 @@ npm i
 
 ## Using the App :computer:
 
-![demo2](./gifs/demo2.gif)
+![demo2](./gifs/2.gif)
 
 Type `node index.js` into your terminal to begin using the app. You can navigate through the commands using the up and down arrows and hitting enter. 
 
