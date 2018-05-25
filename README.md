@@ -1,6 +1,6 @@
 #  :skull:
 
-![demo](gifs/demo1.gif)
+![demo](./gifs/1.gif)
 
 The classic Hangman game built with Node.js and some packages to increase user experience and readability. 
 
@@ -21,7 +21,7 @@ npm i
 
 ## Using the App :computer:
 
-![demo2](gifs/demo2.gif)
+![demo2](./gifs/demo2.gif)
 
 Type `node index.js` into your terminal to begin using the app. You can navigate through the commands using the up and down arrows and hitting enter. 
 
